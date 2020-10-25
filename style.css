@@ -53,14 +53,11 @@ hr
     /* introducing */
     .introducing
     {
-        /* margin-top:0%; */
         background-color: #1abc9c;
         margin-left: -7%;
         margin-right: -3.5%;
         display: flex;
         flex-direction: column;
-        /* padding-top: 50vh; */
-        /* height: 90vh; */
     }
     .introducing-items
     {
