@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portofolio</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" 
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <!-- navbar -->
@@ -19,17 +21,17 @@
             <main>
                 <div class="navbar-items"> 
                     <span class="portofolio">
-                        <a href="#">Portofolio</a>
+                        <a href="#portfolio">Portofolio</a>
                     </span>
                 </div>
                 <div class="navbar-items">
                     <span class="about">
-                            <a href="#">About</a>
+                            <a href="#about-me">About</a>
                     </span> 
                 </div>
                 <div class="navbar-items"> 
                     <span class="contact">
-                        <a href="#">Contact</a>
+                        <a href="#contact-me">Contact</a>
                     </span> 
                 </div>
             </main>
@@ -56,7 +58,7 @@
         </div>
 
         <!-- portfolio -->
-        <div class="portfolio">
+        <div class="portfolio"    id="portfolio">
             <div class="title">
                 <h2 style="margin-top: 0%;">
                      Portfolio
@@ -92,7 +94,7 @@
         </div>
 
         <!-- about-me -->
-        <div class="about-me">
+        <div class="about-me" id="about-me">
             <div class="about-title">
                 <h2>  About </h2>
             </div>
@@ -119,8 +121,8 @@
         </div>
 
         <!-- Contact me  -->
-        <div class="contact-container">
-            <div class="title">
+        <div class="contact-container" id="contact-me">
+            <div class="title contact-title">
                 <h2>  Contact me  </h2>
             </div>
                        <hr class="contact-line">
@@ -147,7 +149,37 @@
                         id="send-button"
                         value="Send">
             </form>
+        </div>
 
+        <!-- footer -->
+        <div class="footer">
+            <div    class="adress">
+                <h2 class="footer-title">
+                    Location
+                </h2>
+                <p> 2215 John Daniel Drive <br>
+                    Clark, MO 65243
+                </p>
+            </div>
+            <div    class="social-media">
+                <h2 class="footer-title">
+                    Around the Web
+                </h2>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-github"></i>
+            </div>
+            <div class="lorem">
+                <h2 class="footer-title"> 
+                Lorem ipsum dolor 
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet <br>
+                    consectetur adipisicing elit.
+         
+                </p>
+            </div>
         </div>
     </body>
 </html>

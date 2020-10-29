@@ -55,7 +55,7 @@ form
     flex-direction: column;
     height: 90vh;
     margin: 5%;
-    margin-top:5% ;
+    margin-top:5%;
     justify-content: space-between;
 }
 #name, #email, #phone
@@ -79,10 +79,10 @@ form
 #send-button
 {
     background-color: #1abc9c;
-    color: white;
+    color: rgb(59, 54, 54);
     font-size: 1rem;
-    width: 30%;
-    height: 15vh;
+    width: 100px;
+    height: 10%;
     margin-top: 8%;
     border-radius: 10px ;
     border-color: #159a80;
@@ -101,8 +101,37 @@ button:focus
         outline: none;
     }
 
+/* footer */
+.footer
+{
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer-title
+{
+    font-family: Arial, sans-serif;
+}
+i{
+   margin:  5px;
+   padding: 10px;
+   border: 1px solid;
+   border-radius: 30px;
+}
+.fa-facebook
+{
+    width: 20px;
+}
+i:hover{
+    background-color: white;
+    color:#2c3e50;
+ }
+
 /* mobile design */
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:767px) {
     /* navbar */
     .navbar
     {
@@ -192,8 +221,6 @@ button:focus
    /* about */
    .about-me
    {
-    /* margin-left: -2%;
-    margin-right: -2%; */
     margin-top: 25%;
     background-color: #1abc9c;
     color: white;
@@ -215,10 +242,15 @@ button:focus
        font-size: 1rem;
        line-height: 1.6;
    }
+   .footer
+   {
+    height: 80vh;
+    margin-top: 20%;
+   }
 }
 
 /* tablet design */
-@media only screen and (min-width: 701px) { 
+@media only screen and (min-width: 768px) { 
     /* navbar */
     .navbar
     {
@@ -249,8 +281,6 @@ button:focus
     .introducing
     {
         background-color: #1abc9c;
-        /* margin-left: -1%;
-        margin-right: -0.99%; */
         display: flex;
         flex-direction: column;
     }
@@ -266,7 +296,7 @@ button:focus
     .avatar
     {
         width: 17%;
-        margin-top: 20%
+        margin-top: 14%
     }
     .name
     {
@@ -291,7 +321,7 @@ button:focus
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-top: 5%;
+        margin-top: 0%;
     }
     .title
     {
@@ -300,6 +330,7 @@ button:focus
         font-family: cursive;
         color: #2c3e50;
         text-align: center;
+        padding-top: 8%;
     }
     .projects-container
     {
@@ -315,8 +346,6 @@ button:focus
        /* about */
    .about-me
     {
-        /* margin-left: -2%;
-        margin-right: -0.6%; */
         margin-top: 10%;
         background-color: #1abc9c;
         color: white;
@@ -327,19 +356,23 @@ button:focus
         font-size: 1.5rem;
         font-weight: bold;
         font-family: cursive;
-        padding-top: 1%;
+        padding-top: 5%;
     }
    .paragraph-container
     {
         margin-right: 12%;
         margin-left: 12%;
-        padding-bottom: 6%;
+        padding-bottom: 9%;
         font-family: Arial, sans-serif;
         font-size: 1rem;
         line-height: 1.6;
     }
 
    /* contact me */
+    .contact-title
+    {
+        padding-top: 5%;
+    }
     form
     {
 
@@ -364,24 +397,27 @@ button:focus
         width: 20%;
         height: 9vh;
         margin-top: 5%;
+        color: white;
     }
-    
+    /* footer */
+    .footer
+    {
+        margin-top: 10%;
+    }
 } 
 
 /* desktop design */
-@media only screen and (min-width:900px) {
+@media only screen and (min-width:992px) {
     /* introducing */
     .introducing
     {
         background-color: #1abc9c;
-        /* margin-left: -1%;
-        margin-right: -0.63%; */
         display: flex;
         flex-direction: column;
     }
     .avatar
     {
-        margin-top: 15%;
+        margin-top: 14%;
     }
 
     /* portfolio */
@@ -392,7 +428,7 @@ button:focus
         text-align: center;
         left: 10%;
         right: 10%;
-        margin-top: 5%;
+        margin-top: 0%;
         padding: 0%;
     }
     .title
@@ -438,7 +474,25 @@ button:focus
     }
     #send-button
     {
-        width: 13%;
-        height: 13vh;
+        width: 12%;
+        height: 60px;
+        font-size: 1rem;
     }
+    /* footer */
+    .footer
+    {
+        display: flex;
+        flex-direction: row;
+        padding-left: 10%;
+        padding-right: 10%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10%;
+        height: 50vh;
+    }
+    .fa-facebook
+    {
+        width: 8%;
+    }
+        
 }   
