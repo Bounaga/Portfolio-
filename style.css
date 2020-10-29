@@ -79,10 +79,10 @@ form
 #send-button
 {
     background-color: #1abc9c;
-    color: rgb(59, 54, 54);
+    color:white;
     font-size: 1rem;
     width: 100px;
-    height: 10%;
+    height: 70px;
     margin-top: 8%;
     border-radius: 10px ;
     border-color: #159a80;
@@ -173,7 +173,7 @@ i:hover{
     .avatar
     {
         width: 60%;
-        padding-top: 60%;
+        padding-top: 65%;
     }
     .name
     {
@@ -244,8 +244,8 @@ i:hover{
    }
    .footer
    {
-    height: 80vh;
-    margin-top: 20%;
+    height: 100vh;
+    margin-top: 30%;
    }
 }
 
