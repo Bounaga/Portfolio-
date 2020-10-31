@@ -140,7 +140,7 @@ i:hover{
         top: 0%;
         left: 0%;
         right: 0%;
-        height: 10vh;
+        /* height: 10vh; */
     }
     .logo-img
     {
@@ -180,7 +180,7 @@ i:hover{
         justify-content: space-between;
         align-items: center;
         /* margin-top: 2%; */
-        padding: 10px;
+        padding: 15px;
         color:  #1abc9c;
     }
   
