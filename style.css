@@ -195,8 +195,8 @@ i:hover{
     }
     .avatar
     {
-        width: 60%;
-        padding-top: 20%;
+        width: 50%;
+        padding-top: 15%;
     }
     .name
     {
@@ -241,6 +241,10 @@ i:hover{
         display: flex;
         flex-direction: column;
    } 
+   .projects 
+   {
+       width: 300px;
+   }
 
    /* about */
    .about-me

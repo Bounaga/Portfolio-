@@ -1,3 +1,4 @@
-let menuBar =  document.getElementById('menubar');
+// let menuBar =  document.getElementById('menubar');
 
-menuBar.addEventListener('click', function() {console.log('hi')});
+// menuBar.addEventListener('click', function() {console.log('hi')});
+
