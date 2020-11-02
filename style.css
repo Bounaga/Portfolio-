@@ -6,6 +6,7 @@ body
 html{
     font-size: 20px;
 }
+
 /* navbar */
 .navbar
 {
@@ -153,7 +154,7 @@ i:hover{
     {
         padding: 3%;    
     }
-    main
+    #mainlist
     {
         margin-left: 3%;
         display: none;
@@ -285,7 +286,7 @@ i:hover{
         top: 0%;
         left: 0%;
         right: 0%;
-        height: 10vh;
+        /* height: 10vh; */
         align-items: center;
     }
     .logo-img
