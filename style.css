@@ -37,7 +37,7 @@ hr
 {
     width: 100%;
     padding-top: 10%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 .line {
     background-color: #2c3e50;
@@ -154,10 +154,15 @@ i:hover{
     {
         padding: 3%;    
     }
-    #mainlist
+    .hideinmobile
     {
         margin-left: 3%;
         display: none;
+    }
+    .showinmobile
+    {
+        margin-left: 3%;
+        display: block;
     }
     
     .logo-menu
@@ -298,6 +303,7 @@ i:hover{
     main
     {
         display: flex;
+        flex-direction: row;
         position: absolute;
         right: 10%;
         width: 40%;
